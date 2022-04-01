@@ -19,7 +19,6 @@ char *setKasadaHooks(int sessionID, char kasadaHooks[]);
 
 char *setCookie(int sessionID, char cookie[]);
 char *delCookie(int sessionID, char cookie[]);
-#include "Python.h"
 */
 import "C"
 import (
